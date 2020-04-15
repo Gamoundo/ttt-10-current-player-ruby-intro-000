@@ -7,7 +7,7 @@ turns = 0
 board.each do |space|
   if space == "X" || space == "O"
     turns +=1
-puts turns
+     puts turns
   end
 
 end
