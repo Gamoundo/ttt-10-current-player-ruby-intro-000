@@ -1,9 +1,9 @@
 def current_player(board)
 turns=turn_count(board)
   if turns.odd? == true
-     "X"
-  else
      "O"
+  else
+     "X"
   end
 end
 
