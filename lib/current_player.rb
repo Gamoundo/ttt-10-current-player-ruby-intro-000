@@ -8,7 +8,7 @@ board.each do |space|
 
   if space == "X" || space == "O"
     turns +=1
-break turns
+next turns
   end
 
 end
