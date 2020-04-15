@@ -10,7 +10,7 @@ board.each do |space|
     turns +=1
 
   end
-return turns
-end
 
+end
+return turns
 end
