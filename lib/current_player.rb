@@ -8,9 +8,9 @@ board.each do |space|
 
   if space == "X" || space == "O"
     turns +=1
-
-  end
 puts turns
+  end
+
 end
 
 end
